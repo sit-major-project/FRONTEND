@@ -289,7 +289,7 @@ function Hero() {
   // Gemini API Integration
   const callGeminiAPI = async (message) => {
     // Replace with your actual Gemini API key
-    const API_KEY = "AIzaSyDcpqbEV5A2gCdKkhTbp93AUxPnmizV-R4";
+    const API_KEY = "lowda";
     const model = "learnlm-2.0-flash-experimental";
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
     // Agriculture-focused system prompt
